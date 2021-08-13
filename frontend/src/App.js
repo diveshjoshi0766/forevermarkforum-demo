@@ -104,7 +104,9 @@ function App() {
           <Route exact path="/after-register">
             <div className="container-after-register">
               <Header logo={Logo} />
+              <div className="after-reg">
               <Navbar key={9} />
+              </div>
               <AfterRegister />
             </div>
           </Route>
